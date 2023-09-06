@@ -3,6 +3,8 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Playfair Display',
+      sans: ['ui-sans-serif', 'system-ui'],
+      mono: ['ui-monospace', 'SFMono-Regular'],
       body: 'Work Sans',
     },
     container: {
