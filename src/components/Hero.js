@@ -2,7 +2,7 @@ import React from "react";
 
 // import woman image
 import WomanImg from "../assets/img/banner-woman2.webp";
-import Logo from "../assets/img/logo.png";
+import Logo from "../assets/img/logo.jpg";
 
 const Hero = () => {
 
@@ -18,10 +18,10 @@ const Hero = () => {
             <p className="text-lg text-accent mb-[22px]">
               Hola, yo soy Isaac 👋
             </p>
-            <h1 className="text-4xl mt-0 leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
+            <h1 className="text-5xl mt-0 leading-[44px] font-bold">
               Mi trabajo es construir y diseñar <br /> páginas web
             </h1>
-            <p className="pt-4 pb-8 md:pt-6 mb:pb-12 max-w-[480px] text-lg text-center lg:text-left">
+            <p className="pt-4 pb-8 md:pt-6 mb:pb-12 max-w-[480px] text-lg text-center lg:text-left sm:text-xl">
               Soy un programador apasionado por crear soluciones
               innovadoras.
             </p>
@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
           </div>
           {/* right side */}
-          <div className="hidden lg:flex flex-1 justify-end items-end h-full">
+          <div className="hidden lg:flex flex-1 justify-center scale-150 h-full">
             <img src={Logo} alt="" />
           </div>
         </div>
