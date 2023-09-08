@@ -29,9 +29,9 @@ const About = () => {
                 experiencias.
               </p>
               <div className="flex justify-center">
-              <button className="font-primary text-xl pl-[130px] pr-[130px] btn btn-blue rounded-3xl bg-accent hover:text-black hover:font-semibold  hover:bg-white hover:rounded-full shadow-lg hover:shadow mt-5">
-                Contactarme
-              </button>
+                <button className="font-primary text-xl pl-[130px] pr-[130px] btn btn-blue bg-accent hover:text-black hover:font-semibold  hover:bg-white rounded-full shadow-lg hover:shadow mt-5">
+                  Contactarme
+                </button>
               </div>
             </div>
           </div>

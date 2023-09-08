@@ -26,7 +26,7 @@ const Hero = () => {
               innovadoras.
             </p>
             <div className="flex justify-start">
-              <button className="font-primary text-xl pl-5 pr-5 btn btn-blue rounded-3xl bg-accent hover:text-black hover:font-semibold  hover:bg-white hover:rounded-full shadow-lg hover:shadow">
+              <button className="font-primary text-xl pl-5 pr-5 btn btn-blue bg-accent hover:text-black hover:font-semibold  hover:bg-white rounded-full shadow-lg hover:shadow">
                 Yo
               </button>
             </div>
