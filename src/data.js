@@ -223,7 +223,6 @@ export const contact = [
   {
     icon: <FiMail />,
     title: "Mi mail de contacto",
-    subtitle: "I am here to help you.",
     description: "Email isaacemanzo51@gmail.com",
   },
   {
