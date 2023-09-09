@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
           {/* info */}
-          <div className="flex flex-1 flex-row justify-center items-center space-y-8 mb-12 lg:mb-0 lg:pt-2">
+          <div className="flex flex-1 flex-row justify-between items-center space-y-8 mb-12 lg:mb-0 lg:pt-2">
             {contact.map((item, index) => {
               const { icon, title, subtitle, description } = item;
               return (

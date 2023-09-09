@@ -180,16 +180,16 @@ export const services = [
       "Es el cerebro detrás de su sitio web o aplicación. Trabaja en segundo plano, manejando la lógica, los datos y la seguridad. En cada proyecto, demuestro mis habilidades en distintas áreas.",
   },
   {
-    icon: <FiPenTool />,
-    name: "Branding",
-    description:
-      "Se refiere al proceso de crear y gestionar la marca de una empresa, producto o servicio. Esto incluye el diseño del logotipo, la identidad visual, el posicionamiento en el mercado, la estrategia de marketing y la reputación de la marca en la mente de los consumidores",
-  },
-  {
     icon: "$",
     name: "Costo",
     description:
-      "Primero se pacta el tiempo que llevará el proyecto, luego el pago del producto se realiza en el momento en que el cliente esté decidido a arrancar un nuevo proyecto, es decir, se paga al inicio y se hará un seguimiento semanal.",
+      "Primero se pacta el tiempo que llevará el proyecto, luego el pago se realiza en el momento que el cliente esté decidido a arrancarlo, es decir, se paga al inicio y se hará un seguimiento semanal.",
+  },
+  {
+    icon: <FiPenTool />,
+    name: "Seguimiento",
+    description:
+      "Semanalmente se le hara un seguimiento al proyecto, mediante virtualidad o presencialidad",
   },
 ];
 
@@ -235,5 +235,4 @@ export const contact = [
     title: "Donde vivo",
     subtitle: "Mar del plata, Buenos Aires",
   },
-  
 ];
