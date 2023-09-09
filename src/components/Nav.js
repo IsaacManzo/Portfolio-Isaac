@@ -20,6 +20,7 @@ const Nav = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
+                target="_blank"
                 className="transition-all duration-300"
               >
                 {item.name}

@@ -10,18 +10,16 @@ const Contact = () => {
         {/* section title */}
         <div className="flex flex-col items-center text-center">
           <h2 className="section-title before:contet-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">
-            Contact me
+            Contactar
           </h2>
           <p className="subtitle">
             {" "}
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
-            maiores voluptate molestiae possimus quaerat officiis! Possimus odit
-            maiores omnis iusto.
+            ¿Como puedes contactarme?
           </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
           {/* info */}
-          <div className="flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2">
+          <div className="flex flex-1 flex-row justify-center items-center space-y-8 mb-12 lg:mb-0 lg:pt-2">
             {contact.map((item, index) => {
               const { icon, title, subtitle, description } = item;
               return (
@@ -37,19 +35,7 @@ const Contact = () => {
                 </div>
               );
             })}
-          </div>
-          {/* form */}
-          <form className="space-y-8 w-full max-w-[780px]">
-            <div className="flex gap-8">
-              <input className="input" type="text" placeholder="Tu nombre" />
-              <input className="input" type="email" placeholder="Tu email" />
-            </div>
-            <input type="text" className="input" placeholder="Asunto" />
-            <textarea className="textarea" placeholder="Tu mensaje"></textarea>
-            <button className="font-primary text-xl pl-5 pr-5 btn btn-blue bg-accent hover:text-black hover:font-semibold  hover:bg-white rounded-full shadow-lg hover:shadow">
-              Enviar mensaje
-            </button>
-          </form>
+          </div>          
         </div>
       </div>
     </section>

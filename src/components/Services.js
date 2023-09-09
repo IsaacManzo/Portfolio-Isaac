@@ -9,13 +9,11 @@ const Services = () => {
       <div className="container mx-auto">
         {/* section title */}
         <div className="flex flex-col items-center text-center">
-          <h2 className="section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block">
-            What it do for clients
+          <h2 className="section-title relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block">
+          ¿Qué les ofrezco a mis clientes?
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus,
-            veniam. Ipsam laudantium nihil odit officiis aliquam. Perspiciatis
-            quasi quo perferendis!
+          Puedo encargarme de la gestión de marca, es decir, diseñar el logotipo, estilos, paleta de colores, disposición de los componentes y una experiencia entretenida para el usuario.
           </p>
         </div>
         {/* item grid */}

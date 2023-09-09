@@ -20,12 +20,9 @@ import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project1 from "./assets/img/projects/p1.webp";
-import Project2 from "./assets/img/projects/p2.webp";
-import Project3 from "./assets/img/projects/p3.webp";
-import Project4 from "./assets/img/projects/p4.webp";
-import Project5 from "./assets/img/projects/p5.webp";
-import Project6 from "./assets/img/projects/p6.webp";
+import Project1 from "./assets/img/projects/Comida1.png";
+import Project2 from "./assets/img/projects/Ecommerce2.png";
+import Project3 from "./assets/img/projects/MiPortfoliopng.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -57,12 +54,8 @@ export const navigation = [
     href: "portfolio",
   },
   {
-    name: "services",
+    name: "servicios",
     href: "services",
-  },
-  {
-    name: "testimonios",
-    href: "testimonials",
   },
   {
     name: "contacto",
@@ -73,20 +66,12 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: "",
-  },
-  {
     icon: <FiInstagram />,
     href: "",
   },
   {
     icon: <FiGithub />,
-    href: "",
-  },
-  {
-    icon: <FiDribbble />,
-    href: "",
+    href: "https://github.com/IsaacManzo",
   },
 ];
 
@@ -119,38 +104,29 @@ export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "project name 1",
-    category: "UI/UX design",
+    name: "Portfolio cheff",
+    category: "Trabajo front-end",
+    description:
+      "Me centré en demostrar mis capacidades utilizando estilos animados.",
+    href: "https://porfolio-martina.vercel.app/",
   },
   {
     id: "2",
     image: Project2,
-    name: "project name 2",
-    category: "web development",
+    name: "Ecommerce ropa",
+    category: "Trabajo front-end",
+    description:
+      "Aquí el estilo es básico, se demuestra la capacidad de manejar datos del producto, agregar al carrito, eliminar, sumar precios, etc.",
+    href: "https://ecommerce-ropa.vercel.app/",
   },
   {
     id: "3",
     image: Project3,
-    name: "project name 3",
-    category: "UI/UX design",
-  },
-  {
-    id: "4",
-    image: Project4,
-    name: "project name 4",
-    category: "branding",
-  },
-  {
-    id: "5",
-    image: Project5,
-    name: "project name 5",
-    category: "web development",
-  },
-  {
-    id: "6",
-    image: Project6,
-    name: "project name 6",
-    category: "web development",
+    name: "Mi portfolio",
+    category: "Trabajo Front-end",
+    description:
+      "En esta página, comparto mis conocimientos, mis datos de contacto y explico en qué se dedica un programador web.",
+    href: "https://portfolio-isaac-kappa.vercel.app/",
   },
 ];
 
@@ -160,13 +136,10 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "UI/UX Design",
+    name: "Programador Front-end",
   },
   {
-    name: "web development",
-  },
-  {
-    name: "branding",
+    name: "Programador Back-end",
   },
 ];
 
@@ -196,27 +169,27 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: "Web Design",
+    name: "Front-end",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "Es la cara visible de su sitio web o aplicación. Es lo que ve y con lo que interactúa. Cuida la apariencia y la experiencia del usuario.",
   },
   {
     icon: <FiSettings />,
-    name: "Web Development",
+    name: "Back-End",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "Es el cerebro detrás de su sitio web o aplicación. Trabaja en segundo plano, manejando la lógica, los datos y la seguridad. En cada proyecto, demuestro mis habilidades en distintas áreas.",
   },
   {
     icon: <FiPenTool />,
     name: "Branding",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "Se refiere al proceso de crear y gestionar la marca de una empresa, producto o servicio. Esto incluye el diseño del logotipo, la identidad visual, el posicionamiento en el mercado, la estrategia de marketing y la reputación de la marca en la mente de los consumidores",
   },
   {
-    icon: <FiTag />,
-    name: "SEO",
+    icon: "$",
+    name: "Costo",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "Primero se pacta el tiempo que llevará el proyecto, luego el pago del producto se realiza en el momento en que el cliente esté decidido a arrancar un nuevo proyecto, es decir, se paga al inicio y se hará un seguimiento semanal.",
   },
 ];
 
@@ -249,14 +222,19 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: "Have a question?",
+    title: "Mi mail de contacto",
     subtitle: "I am here to help you.",
-    description: "Email me at hello@youremail.com",
+    description: "Email isaacemanzo51@gmail.com",
+  },
+  {
+    icon: "☎",
+    title: "Whatsapp/Llamada",
+    description: "+54 2262 408165",
   },
   {
     icon: <FiMapPin />,
-    title: "Current Location",
-    subtitle: "Bucharest, Romania",
-    description: "Serving clients worldwide",
+    title: "Donde vivo",
+    subtitle: "Mar del plata, Buenos Aires",
   },
+  
 ];
