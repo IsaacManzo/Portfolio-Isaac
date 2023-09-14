@@ -19,11 +19,11 @@ const Contact = () => {
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
           {/* info */}
-          <div className="flex flex-1 flex-row justify-between items-center space-y-8 mb-12 lg:mb-0 lg:pt-2">
+          <div className="flex flex-1 flex-col md:flex-row justify-between items-center space-y-8 mb-12 lg:mb-0 lg:pt-2">
             {contact.map((item, index) => {
               const { icon, title, subtitle, description } = item;
               return (
-                <div className="flex flex-col lg:flex-row gap-x-4" key={index}>
+                <div className="flex flex-col lg:flex-row gap-x-4 items-center" key={index}>
                   <div className="text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl">
                     {icon}
                   </div>
