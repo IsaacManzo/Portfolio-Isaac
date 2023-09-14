@@ -8,16 +8,16 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bo-repeat py-32 white overflow-hidden "
+      className="lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bo-repeat py-32 white overflow-hidden"
     >
-      <div className="container mx-auto h-full ">
+      <div className="container mx-auto h-full">
         <div className="flex items-center h-full pt-8">
           {/* left side */}
-          <div className="flex-1 flex flex-col mb-0">
+          <div className="flex-1 flex flex-col items-center lg:items-start mb-0">
             <p className="text-lg text-accent md:pt-5">
               Hola, yo soy Isaac 👋
             </p>
-            <h1 className="text-5xl mt-0 leading-[44px] font-bold">
+            <h1 className="text-5xl mt-0 leading-[44px] font-bold ">
 
               Mi trabajo es construir y diseñar <br /> páginas web
             </h1>
