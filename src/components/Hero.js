@@ -1,19 +1,19 @@
 import React from "react";
 
 // import woman image
-import Logo from "../assets/img/logo.jpg";
+import iconsDark from "../assets/img/heroIconsDark.svg";
 
 const Hero = () => {
 
   return (
     <section
       id="home"
-      className="lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bo-repeat py-32 white overflow-hidden"
+      className="lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bo-repeat py-32 white overflow-hidden "
     >
-      <div className="container mx-auto h-full">
+      <div className="container mx-auto h-full ">
         <div className="flex items-center h-full pt-8">
           {/* left side */}
-          <div className="flex-1 flex flex-col items-center lg:items-start mb-0">
+          <div className="flex-1 flex flex-col mb-0">
             <p className="text-lg text-accent md:pt-5">
               Hola, yo soy Isaac 👋
             </p>
@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
           {/* right side */}
           <div className="hidden lg:flex flex-1 justify-center scale-150 h-full">
-            <img className="rounded-2xl" src={Logo} alt="" />
+            <img className="rounded-2xl" src={iconsDark} alt="" />
           </div>
         </div>
       </div>
