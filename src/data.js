@@ -105,7 +105,7 @@ export const projectsData = [
     id: "1",
     image: Project1,
     name: "Portfolio cheff",
-    category: "Trabajo front-end",
+    category: "Programador front-end",
     description:
       "Me centré en demostrar mis capacidades utilizando estilos animados.",
     href: "https://porfolio-martina.vercel.app/",
@@ -114,7 +114,7 @@ export const projectsData = [
     id: "2",
     image: Project2,
     name: "Ecommerce ropa",
-    category: "Trabajo front-end",
+    category: "Programador front-end",
     description:
       "Aquí el estilo es básico, se demuestra la capacidad de manejar datos del producto, agregar al carrito, eliminar, sumar precios, etc.",
     href: "https://ecommerce-ropa.vercel.app/",
@@ -123,7 +123,7 @@ export const projectsData = [
     id: "3",
     image: Project3,
     name: "Mi portfolio",
-    category: "Trabajo Front-end",
+    category: "Programador Front-end",
     description:
       "En esta página, comparto mis conocimientos, mis datos de contacto y explico en qué se dedica un programador web.",
     href: "https://portfolio-isaac-kappa.vercel.app/",
