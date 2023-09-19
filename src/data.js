@@ -1,13 +1,10 @@
 //  icons
 import {
-  FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
 } from "react-icons/fi";
@@ -23,16 +20,15 @@ import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 import Project1 from "./assets/img/projects/Comida1.png";
 import Project2 from "./assets/img/projects/Ecommerce2.png";
 import Project3 from "./assets/img/projects/MiPortfoliopng.png";
+import Project4 from "./assets/img/projects/MarcelaPortfolio.png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
 import SkillImg2 from "./assets/img/skills/css3.png";
 import SkillImg3 from "./assets/img/skills/js.png";
 import SkillImg4 from "./assets/img/skills/reactjs.png";
-import SkillImg5 from "./assets/img/skills/nextjs.png";
 import SkillImg6 from "./assets/img/skills/nodejs.png";
 import SkillImg7 from "./assets/img/skills/git.png";
-import SkillImg8 from "./assets/img/skills/figma.png";
 
 // testimonial images
 import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
@@ -127,6 +123,15 @@ export const projectsData = [
     description:
       "En esta página, comparto mis conocimientos, mis datos de contacto y explico en qué se dedica un programador web.",
     href: "https://portfolio-isaac-kappa.vercel.app/",
+  },
+  {
+    id: "3",
+    image: Project4,
+    name: "Acompañante terapeutica",
+    category: "Programador Front-end",
+    description:
+      "Este es un proyecto freelance diseñado y adaptado a los gustos del cliente.",
+    href: "https://portfolio-marcela.vercel.app/",
   },
 ];
 
