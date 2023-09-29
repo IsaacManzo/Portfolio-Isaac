@@ -25,7 +25,7 @@ const About = () => {
               </p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-2 mt-3">
-                Me considero una persona apasionada por la programación, siempre
+                Soy una persona apasionada por la programación, siempre
                 predispuesto a aprender más y formarme constantemente, cómo así
                 también me interesa compartir con los demás mis conocimientos y
                 experiencias.
