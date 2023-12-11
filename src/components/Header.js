@@ -1,18 +1,26 @@
 import React, { useState, useEffect } from "react";
-
-//import Logo from "../assets/img/logo.svg";
+import { Link } from "react-scroll";
 import Nav from "../components/Nav";
 import NavMobile from "../components/NavMobile";
 import Socials from "../components/Socials";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
+  const [arrowUp, setArrowUp] = useState(true);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      return window.scrollY > 50 ? setBg(true) : setBg(false);
-    });
-  });
+    const handleScroll = () => {
+      setBg(window.scrollY > 50);
+      setArrowUp(window.scrollY <= 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup function to remove the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <header
@@ -22,9 +30,13 @@ const Header = () => {
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* Logo */}
-        <a href="/">
-          <p className="text-[40px] hover:text-accent transition-all duration-300">logo</p>
-        </a>
+        <Link to="home" smooth={true} duration={500}>
+          <a href="/">
+            <p className={`text-[40px] hover:text-accent transition-all duration-300 ${arrowUp ? 'rotate-180' : ''}`}>
+              {arrowUp ? "▲" : "▲"}
+            </p>
+          </a>
+        </Link>
         {/* nav */}
         <div className="hidden lg:block">
           <Nav />

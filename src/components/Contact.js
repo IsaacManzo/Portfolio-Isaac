@@ -14,7 +14,7 @@ const Contact = () => {
           </h2>
           <p className="subtitle">
             {" "}
-            ¿Como puedes contactarme?
+            ¿Cómo puedes contactarme?
           </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">

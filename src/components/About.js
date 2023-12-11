@@ -1,17 +1,18 @@
 import React from "react";
 
+import { Link } from "react-scroll"
+
 // import image
-import Image from "../assets/img/about.webp";
-import Image1 from "../assets/img/outline-text/logo.png";
+import image from "../assets/img/about/aboutImage.jpg"
 
 const About = () => {
   return (
     <section id="about" className="section bg-secondary">
       <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row gap-24">
+        <div className="flex justify-center flex-col xl:flex-row gap-24">
           <img
-            className="objet-cover h-full w-[566px] md:w-[700px] sm:w-[566px] lg:mx-0 rounded-2xl"
-            src={Image}
+            className="objet-cover h-full w-[466px] md:w-[500px] sm:w-[466px] lg:mx-0 rounded-2xl"
+            src={image}
             alt="no cargo la imagen"
           />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
@@ -24,17 +25,19 @@ const About = () => {
                 Programador Web
               </p>
               <hr className="mb-8 opacity-5" />
+              <div className="">
               <p className="mb-2 mt-3">
-                Soy una persona apasionada por la programación, siempre
-                predispuesto a aprender más y formarme constantemente, cómo así
-                también me interesa compartir con los demás mis conocimientos y
-                experiencias.
+              ¡Hola! Soy un apasionado programador con un enfoque creativo y soluciones a medida. Mi objetivo es transformar tus ideas en sitios web únicos y funcionales. Con habilidades sólidas y atención personalizada, estoy listo para llevar tu presencia en línea al siguiente nivel.
               </p>
-              <div className="flex justify-center">
+              <p className="mb-2 mt-3">
+              Con experiencia en proyectos complejos y colaboración efectiva en equipos. Mi formación académica sólida me ha proporcionado habilidades avanzadas. Trabajando en diversos proyectos, he comprendido a fondo la dinámica de las empresas de páginas web. Estoy listo para enfrentar nuevos desafíos con entusiasmo y experiencia. ¡Hablemos y creemos algo juntos!
+              </p>
+              </div>
+              <Link to="contacto" smooth={true} duration={500}>
                 <button className="font-primary text-xl pl-[130px] pr-[130px] btn btn-blue bg-accent hover:text-black hover:font-semibold  hover:bg-white rounded-full shadow-lg hover:shadow mt-5">
                   Contactarme
                 </button>
-              </div>
+                </Link>
             </div>
           </div>
         </div>

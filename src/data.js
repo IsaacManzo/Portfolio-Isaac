@@ -63,7 +63,7 @@ export const navigation = [
 export const social = [
   {
     icon: <FiInstagram />,
-    href: "",
+    href: "https://www.instagram.com/isaac_manzo1/",
   },
   {
     icon: <FiGithub />,
@@ -103,8 +103,8 @@ export const projectsData = [
     name: "Portfolio cheff",
     category: "Programador front-end",
     description:
-      "Me centré en demostrar mis capacidades utilizando estilos animados.",
-    href: "https://porfolio-martina.vercel.app/",
+      "Me centré en demostrar mis capacidades utilizando estilos animados. Estilo minimalita y proligidad.",
+    href: "https://bristo-cafe-wheat.vercel.app/",
   },
   {
     id: "2",
@@ -121,7 +121,7 @@ export const projectsData = [
     name: "Mi portfolio",
     category: "Programador Front-end",
     description:
-      "En esta página, comparto mis conocimientos, mis datos de contacto y explico en qué se dedica un programador web.",
+      "En esta página, comparto mis conocimientos, mis datos de contacto y explico a que dedica un programador web.",
     href: "https://portfolio-isaac-kappa.vercel.app/",
   },
   {
@@ -131,7 +131,7 @@ export const projectsData = [
     category: "Programador Front-end",
     description:
       "Este es un proyecto freelance diseñado y adaptado a los gustos del cliente.",
-    href: "https://portfolio-marcela.vercel.app/",
+    href: "https://marcela-sanchez.vercel.app/",
   },
 ];
 
@@ -227,8 +227,8 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: "Mi mail de contacto",
-    description: "Email isaacemanzo51@gmail.com",
+    title: "Mi email de contacto",
+    description: "isaacemanzo51@gmail.com",
   },
   {
     icon: "☎",
@@ -238,6 +238,6 @@ export const contact = [
   {
     icon: <FiMapPin />,
     title: "Donde vivo",
-    subtitle: "Mar del plata, Buenos Aires",
+    subtitle: "Necochea, Buenos Aires",
   },
 ];
