@@ -121,7 +121,7 @@ export const projectsData = [
     name: "Mi portfolio",
     category: "Programador Front-end",
     description:
-      "En esta página, comparto mis conocimientos, mis datos de contacto y explico a que dedica un programador web.",
+      "En esta página, comparto mis conocimientos, mis datos de contacto y explico a que se dedica un programador web.",
     href: "https://portfolio-isaac-kappa.vercel.app/",
   },
   {
